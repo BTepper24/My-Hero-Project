@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    background-image: url("https://image.freepik.com/free-vector/flat-design-red-comic-style-background_23-2148797742.jpg")
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("https://i.pinimg.com/originals/0d/c3/4b/0dc34bd50c5613e078b579a7aa389f70.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: yellow;
+  text-shadow: 2px 2px #ff0000;
+}
+.description {
+  color: blue;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-shadow: 2px 2px #000080;
+}
+
+button{
+  background-color:blue;
+  color: white;
+  font-style: bold;
+}
+
+.super{
+  font-size:100px;
+  color: Blue;
+}
